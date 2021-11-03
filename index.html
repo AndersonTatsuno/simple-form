@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <form action="">
+          <label for="">Nome:</label>
+          <input type="text" /><br />
+          <label for="">Sobrenome:</label>
+          <input type="text" /><br />
+          <label for="">Idade:</label>
+          <input type="number" min="0" max="120" /><br />
+
+          <label for="">E-Mail:</label>
+          <input type="email" placeholder="melhoremail@email.com" /><br />
+
+          <label for="">Sexo:</label><br />
+          <input type="radio" id="m" name="Gender" value="M" />
+          <label for="">Masculino</label><br />
+          <input type="radio" id="f" name="Gender" value="F" />
+          <label for="">Feminino</label><br />
+          <input type="radio" id="o" name="Gender" value="O" />
+          <label for="">Outro</label><br />
+
+          <label for="">Como conheceu a nossa empresa?</label><br />
+          <input type="checkbox" id="opcao1" value="o1" />
+          <label for="o1">Facebook</label>
+          <input type="checkbox" id="opcao2" value="o2" />
+          <label for="o2">Instagram</label>
+          <input type="checkbox" id="opcao3" value="o3" />
+          <label for="o3">YouTube</label>
+          <input type="checkbox" id="opcao4" value="o4" />
+          <label for="o4">Google</label>
+          <input type="checkbox" id="opcao5" value="o5" />
+          <label for="o5">Outros</label><br />
+
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpar</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
